@@ -70,8 +70,9 @@ public class CustomList extends ArrayAdapter<City> {
 
     void delete (City city) {
         cities.remove(city);
-
     }
+
+    int countCities() { return 0; }
 
 
 
